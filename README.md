@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# ☕ Café Le Gris
 
-First, run the development server:
+### Sitio web corporativo · Restaurante & Café de especialidad
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
+
+**[Ver demo](https://cafe-le-gris.vercel.app)** · **Medellín, Colombia**
+
+</div>
+
+---
+
+## 🎯 Sobre el proyecto
+
+**Café Le Gris** es un sitio web corporativo de alta gama desarrollado para un restaurante y café de especialidad con más de cuatro décadas de trayectoria. El proyecto combina **diseño elegante**, **experiencia de usuario cuidada** y **multilingualismo real** para reflejar la identidad de una marca premium.
+
+Fue concebido como una **single-page application** con navegación por secciones, integración con Google Maps, flujo de reservas vía WhatsApp y visualización de cartas en PDF, pensado tanto para usuarios finales como para destacar en portafolio y procesos de reclutamiento.
+
+---
+
+## ✨ Funcionalidades
+
+| Área | Detalle |
+|------|--------|
+| **Idiomas** | Español, inglés, francés y portugués con selector persistente (localStorage) |
+| **Navegación** | Scroll suave por secciones; enlaces que funcionan correctamente al repetir clic (sin “bug” de hash) |
+| **Ubicación** | Mapa embebido de Google Maps (Café Le Gris, C.C. Oviedo) con enlace directo al perfil |
+| **Reservas** | Botón WhatsApp con mensaje predeterminado (fecha, hora, número de personas) según idioma |
+| **Horarios** | Textos claros y accesibles por día (entre semana, sábado, domingo) con brunch y hora del té |
+| **Gastronomía** | Tarjetas por tipo de menú (Principal, Brunch, Hora del té) con enlaces a vistas PDF |
+| **Diseño** | Responsive, tipografía serif, paleta sobria y componentes reutilizables |
+
+---
+
+## 🛠 Tecnologías
+
+- **Framework:** Next.js 16 (App Router)
+- **UI:** React 19, TypeScript 5
+- **Estilos:** Tailwind CSS 4
+- **Internacionalización:** Context API + objeto de traducciones (sin librerías externas)
+- **Despliegue:** Preparado para Vercel u otro hosting estático/Node
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+src/
+├── app/                    # Rutas (home, menuPrincipal, brunch, horaTe)
+├── components/             # Header, Footer, Hero, secciones, cards, botones
+├── contexts/               # LanguageContext (locale + traducciones)
+├── i18n/                   # translations.ts (es, en, fr, pt)
+├── lib/                    # Utilidades (PDFs de cartas)
+└── types/                  # Tipos TypeScript
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Cómo ejecutarlo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/cafe-le-gris.git
+cd cafe-le-gris
 
-## Learn More
+# Instalar dependencias
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Modo desarrollo
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Abre [http://localhost:3000](http://localhost:3000) en el navegador.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Build de producción
+npm run build
 
-## Deploy on Vercel
+# Servir build
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Licencia
+
+Proyecto de uso educativo y portafolio.  
+© Café Le Gris — marca del restaurante.
+
+---
+
+<div align="center">
+
+**Hecho con atención al detalle para un café que se toma en serio.**
+
+</div>

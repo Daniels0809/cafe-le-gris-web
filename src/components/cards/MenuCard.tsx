@@ -11,10 +11,9 @@ type MenuCardProps = {
 function MenuCard({ imagen, title, text }: MenuCardProps) {
 
   return (
- <div className="bg-white overflow-hidden">
-      
+    <div className="bg-white overflow-hidden flex flex-col h-full">
       {/* CONTENEDOR IMAGEN */}
-      <div className="relative w-full aspect-video">
+      <div className="relative w-full aspect-video flex-shrink-0">
         {imagen && (
           <Image
             src={imagen}
@@ -25,16 +24,15 @@ function MenuCard({ imagen, title, text }: MenuCardProps) {
         )}
       </div>
 
-      {/* CONTENIDO */}
-      <div className="p-6">
+      {/* CONTENIDO: crece para que el botón quede alineado en todas las cards */}
+      <div className="p-6 flex-1 flex flex-col">
         <h3 className="font-serif text-xl font-medium text-foreground mb-2">{title}</h3>
         {text && (
-          <p className="text-foreground/80 leading-relaxed">
+          <p className="text-foreground/80 leading-relaxed flex-1">
             {text}
           </p>
         )}
       </div>
-
     </div>
   )
 }

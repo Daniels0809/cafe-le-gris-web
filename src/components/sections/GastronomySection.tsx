@@ -49,13 +49,15 @@ export default function GastronomySection() {
           {CARDS.map(({ id, image, titleKey, descKey }) => (
             <div
               key={id}
-              className="group flex flex-col shadow-sm hover:shadow-lg transition-shadow duration-300"
+              className="group flex flex-col h-full shadow-sm hover:shadow-lg transition-shadow duration-300"
             >
-              <MenuCard
-                imagen={image}
-                title={t.gastronomy[titleKey]}
-                text={t.gastronomy[descKey]}
-              />
+              <div className="flex-1 flex flex-col min-h-0">
+                <MenuCard
+                  imagen={image}
+                  title={t.gastronomy[titleKey]}
+                  text={t.gastronomy[descKey]}
+                />
+              </div>
               <div className="p-4 pt-0">
                 <Button page={id} label={t.gastronomy.viewMenu} />
               </div>

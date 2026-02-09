@@ -63,7 +63,7 @@ export const translations = {
         "Abrimos de 11 y media de la mañana a 9 de la noche. Puede venir a la hora del té de 3 a 7 de la tarde.",
       scheduleSaturdayLabel: "Sábado",
       scheduleSaturdayText:
-        "Abrimos de 11 y media de la mañana a 9 de la noche (igual que entre semana). Además puede venir a brunch (desayuno tardío) de 9 de la mañana a 1 de la tarde, o a la hora del té de 3 a 7 de la tarde.",
+        "Abrimos de 11 y media de la mañana a 9 de la noche (igual que entre semana). Además puede venir al brunch (desayuno tardío) de 9 de la mañana a 1 de la tarde, o a la hora del té de 3 a 7 de la tarde.",
       scheduleSundayLabel: "Domingo",
       scheduleSundayText:
         "Abrimos de 11 y media de la mañana a 4 de la tarde. Brunch de 9 de la mañana a 1 de la tarde.",
@@ -85,6 +85,7 @@ export const translations = {
     menuPage: {
       backToHome: "Volver al inicio",
       downloadPdf: "Descargar carta (PDF)",
+      pdfPending: "La carta estará disponible próximamente.",
     },
   },
   en: {
@@ -171,6 +172,7 @@ export const translations = {
     menuPage: {
       backToHome: "Back to home",
       downloadPdf: "Download menu (PDF)",
+      pdfPending: "The menu will be available soon.",
     },
   },
   fr: {
@@ -257,6 +259,7 @@ export const translations = {
     menuPage: {
       backToHome: "Retour à l'accueil",
       downloadPdf: "Télécharger la carte (PDF)",
+      pdfPending: "La carte sera bientôt disponible.",
     },
   },
   pt: {
@@ -343,6 +346,7 @@ export const translations = {
     menuPage: {
       backToHome: "Voltar ao início",
       downloadPdf: "Baixar carta (PDF)",
+      pdfPending: "A carta estará disponível em breve.",
     },
   },
 } as const;

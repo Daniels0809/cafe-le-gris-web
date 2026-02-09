@@ -9,7 +9,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
 
-**[Ver demo](https://cafe-le-gris.vercel.app)** · **Medellín, Colombia**
+**[Ver demo](https://cafe-le-gris-web.vercel.app)** · **Medellín, Colombia**
 
 </div>
 

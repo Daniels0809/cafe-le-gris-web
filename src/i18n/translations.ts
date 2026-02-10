@@ -58,15 +58,18 @@ export const translations = {
       addressLine3: "Medellín, Antioquia 050022",
       hours: "Horario",
       hoursIntro: "¿Cuándo puede venir?",
-      scheduleWeekdayLabel: "De lunes a viernes",
+      scheduleWeekdayLabel: "Lunes, martes, miércoles y sábado",
       scheduleWeekdayText:
-        "Abrimos de 11 y media de la mañana a 9 de la noche. Puede venir a la hora del té de 3 a 7 de la tarde.",
-      scheduleSaturdayLabel: "Sábado",
-      scheduleSaturdayText:
-        "Abrimos de 11 y media de la mañana a 9 de la noche (igual que entre semana). Además puede venir al brunch (desayuno tardío) de 9 de la mañana a 1 de la tarde, o a la hora del té de 3 a 7 de la tarde.",
-      scheduleSundayLabel: "Domingo",
+        "11:30 a.m. - 10:00 p.m. (cierre comedor 9:00 p.m., cierre bar 9:30 p.m.)",
+      scheduleThursdayFridayLabel: "Jueves y viernes",
+      scheduleThursdayFridayText:
+        "11:30 a.m. - 10:30 p.m. (cierre comedor 9:30 p.m., cierre bar 10:00 p.m.)",
+      scheduleSundayLabel: "Domingo y festivos",
       scheduleSundayText:
-        "Abrimos de 11 y media de la mañana a 4 de la tarde. Brunch de 9 de la mañana a 1 de la tarde.",
+        "11:30 a.m. - 5:00 p.m. (cierre comedor 4:00 p.m., cierre bar 4:30 p.m.)",
+      scheduleBrunchLabel: "Brunch",
+      scheduleBrunchText:
+        "Sábado, domingo y lunes festivo: 9:00 a.m. - 1:00 p.m.",
     },
     contact: {
       title: "Contacto",
@@ -145,15 +148,18 @@ export const translations = {
       addressLine3: "Medellín, Antioquia 050022",
       hours: "Hours",
       hoursIntro: "When can you visit?",
-      scheduleWeekdayLabel: "Monday to Friday",
+      scheduleWeekdayLabel: "Monday, Tuesday, Wednesday and Saturday",
       scheduleWeekdayText:
-        "We are open from 11:30 in the morning to 9 at night. Tea time from 3 to 7 in the afternoon.",
-      scheduleSaturdayLabel: "Saturday",
-      scheduleSaturdayText:
-        "We are open from 11:30 in the morning to 9 at night (same as weekdays). You can also come for brunch (late breakfast) from 9 in the morning to 1 in the afternoon, or for tea time from 3 to 7 in the afternoon.",
-      scheduleSundayLabel: "Sunday",
+        "11:30 a.m. - 10:00 p.m. (dining room closes 9:00 p.m., bar closes 9:30 p.m.)",
+      scheduleThursdayFridayLabel: "Thursday and Friday",
+      scheduleThursdayFridayText:
+        "11:30 a.m. - 10:30 p.m. (dining room closes 9:30 p.m., bar closes 10:00 p.m.)",
+      scheduleSundayLabel: "Sunday and holidays",
       scheduleSundayText:
-        "We are open from 11:30 in the morning to 4 in the afternoon. Brunch from 9 in the morning to 1 in the afternoon.",
+        "11:30 a.m. - 5:00 p.m. (dining room closes 4:00 p.m., bar closes 4:30 p.m.)",
+      scheduleBrunchLabel: "Brunch",
+      scheduleBrunchText:
+        "Saturday, Sunday and holiday Mondays: 9:00 a.m. - 1:00 p.m.",
     },
     contact: {
       title: "Contact",
@@ -232,15 +238,18 @@ export const translations = {
       addressLine3: "Medellín, Antioquia 050022",
       hours: "Horaires",
       hoursIntro: "Quand pouvez-vous venir ?",
-      scheduleWeekdayLabel: "De lundi à vendredi",
+      scheduleWeekdayLabel: "Lundi, mardi, mercredi et samedi",
       scheduleWeekdayText:
-        "Ouvert de 11 h 30 du matin à 21 h. Heure du thé de 15 h à 19 h.",
-      scheduleSaturdayLabel: "Samedi",
-      scheduleSaturdayText:
-        "Ouvert de 11 h 30 du matin à 21 h (comme en semaine). Vous pouvez aussi venir pour le brunch (petit-déjeuner tardif) de 9 h à 13 h, ou pour l'heure du thé de 15 h à 19 h.",
-      scheduleSundayLabel: "Dimanche",
+        "11 h 30 - 22 h (fermeture salle à manger 21 h, fermeture bar 21 h 30).",
+      scheduleThursdayFridayLabel: "Jeudi et vendredi",
+      scheduleThursdayFridayText:
+        "11 h 30 - 22 h 30 (fermeture salle à manger 21 h 30, fermeture bar 22 h).",
+      scheduleSundayLabel: "Dimanche et jours fériés",
       scheduleSundayText:
-        "Ouvert de 11 h 30 du matin à 16 h. Brunch de 9 h à 13 h.",
+        "11 h 30 - 17 h (fermeture salle à manger 16 h, fermeture bar 16 h 30).",
+      scheduleBrunchLabel: "Brunch",
+      scheduleBrunchText:
+        "Samedi, dimanche et lundis fériés : 9 h - 13 h.",
     },
     contact: {
       title: "Contact",
@@ -319,15 +328,18 @@ export const translations = {
       addressLine3: "Medellín, Antioquia 050022",
       hours: "Horário",
       hoursIntro: "Quando pode vir?",
-      scheduleWeekdayLabel: "De segunda a sexta",
+      scheduleWeekdayLabel: "Segunda, terça, quarta e sábado",
       scheduleWeekdayText:
-        "Abrimos das 11h30 da manhã às 9 da noite. Hora do chá das 15h às 19h.",
-      scheduleSaturdayLabel: "Sábado",
-      scheduleSaturdayText:
-        "Abrimos das 11h30 da manhã às 9 da noite (igual à semana). Também pode vir para o brunch (desjejum tardio) das 9 da manhã à 1 da tarde, ou para a hora do chá das 15h às 19h.",
-      scheduleSundayLabel: "Domingo",
+        "11h30 - 22h (fechamento restaurante 21h, fechamento bar 21h30).",
+      scheduleThursdayFridayLabel: "Quinta e sexta",
+      scheduleThursdayFridayText:
+        "11h30 - 22h30 (fechamento restaurante 21h30, fechamento bar 22h).",
+      scheduleSundayLabel: "Domingo e feriados",
       scheduleSundayText:
-        "Abrimos das 11h30 da manhã às 4 da tarde. Brunch das 9 da manhã à 1 da tarde.",
+        "11h30 - 17h (fechamento restaurante 16h, fechamento bar 16h30).",
+      scheduleBrunchLabel: "Brunch",
+      scheduleBrunchText:
+        "Sábado, domingo e segundas-feiras de feriado: 9h - 13h.",
     },
     contact: {
       title: "Contato",

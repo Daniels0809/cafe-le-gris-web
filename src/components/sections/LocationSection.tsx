@@ -107,15 +107,21 @@ export default function LocationSection() {
                   </li>
                   <li>
                     <span className="font-semibold text-foreground block mb-0.5">
-                      {t.location.scheduleSaturdayLabel}
+                      {t.location.scheduleThursdayFridayLabel}
                     </span>
-                    {t.location.scheduleSaturdayText}
+                    {t.location.scheduleThursdayFridayText}
                   </li>
                   <li>
                     <span className="font-semibold text-foreground block mb-0.5">
                       {t.location.scheduleSundayLabel}
                     </span>
                     {t.location.scheduleSundayText}
+                  </li>
+                  <li>
+                    <span className="font-semibold text-foreground block mb-0.5">
+                      {t.location.scheduleBrunchLabel}
+                    </span>
+                    {t.location.scheduleBrunchText}
                   </li>
                 </ul>
               </div>
